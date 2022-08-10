@@ -1,0 +1,43 @@
+.dashboard-header{
+    box-shadow: 0 0 3px rgb(208, 205, 205);
+    background-color: $color-white;
+    padding: 23px 30px;
+    color: $color-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-actions{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .fa-solid{
+        font-size: 20px;
+    }
+
+    .user{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        img{
+            width: 25px;
+            border-radius: 50%;
+        }
+
+        .user-detail{
+            p{
+                font-size: 12px;
+            }
+            .name{
+                color: darken($color-dark, 20%);
+                font-weight: bold;
+            }
+        }
+        .fa-angle-down {
+            font-size: 10px;
+        }
+    }
+}

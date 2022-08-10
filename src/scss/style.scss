@@ -1,0 +1,24 @@
+@import 'config';
+@import 'sidebar';
+@import 'header';
+@import 'newAccountScreen';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Averta CY', sans-serif;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+body{
+    background: lighten($color-light, 3%);
+}
+
+.main-container {
+    margin-left: 255px;
+}
+

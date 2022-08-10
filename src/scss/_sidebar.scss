@@ -1,0 +1,67 @@
+
+.sidebar {
+    color: $color-dark;
+	background: $color-white;
+	box-shadow: 0 0 3px rgb(208, 205, 205);
+	position: fixed;
+	width: 255px;
+	height: 100%;
+	font-weight: 300;
+	z-index: 3;
+}
+
+.logo-container {
+    margin: 20px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 130px;
+}
+
+.menu {
+    ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li a {
+		border-left: 4px solid $color-white;
+		padding: 20px 20px 20px 50px;
+		text-decoration: none;
+		color: $color-dark;
+        display: block;
+		&:hover {
+			border-left: 4px solid $color-secondary;
+		}
+	}
+
+    .fa-solid{
+        margin-right: 20px;
+    }
+    .active {
+		border-left: 4px solid $color-secondary;
+		color: $color-secondary;
+        background-color: lighten($color-light, 4%);
+	}
+
+}
+
+.dropdown{
+	img {
+		width: 10px;
+		transition: transform 0.6s ease;
+		margin-right: 30px;
+		float: right;
+		margin-top: 5px;
+	}
+	.rotate {
+		transform: rotate(180deg);
+	}
+	
+	.dropdown-content a {
+		padding-left: 90px;
+	}
+}

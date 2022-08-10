@@ -1,0 +1,168 @@
+.new-account-screen-container{
+    margin: 30px 100px;
+    .screen-header{
+        color: darken($color-dark, 10%);
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-bottom: 20px;
+        h2{
+            font-size: 23px;
+        }
+    
+        .tag{
+            font-size: 12px;
+            padding: 3px 5px;
+            border-radius: 4px;
+        }
+        .restricted {
+            background: $color-danger;
+            color: $color-white;
+        }
+        .draft {
+            background: $color-white;
+            color: $color-dark;
+            border: 1px solid lighten($color-dark, 40%);
+        }
+    }
+    .form-header{
+        padding: 20px 15px;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid $color-light;
+        border-radius: 5px;
+        background: $color-white;
+        color: $color-dark;
+        font-size: 11px;
+        overflow-x: scroll;
+        .form-header-content{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            // border: 1px solid red;
+            .active{
+                color: $color-secondary;
+            }
+            .tag{
+                width: 25px;
+                height: 25px;
+                background-color: $color-light;
+                border-radius: 50%;
+                text-align: center;
+                padding-top: 6px;
+            }
+            .active-tag{
+                background: $color-secondary;
+                color: $color-white;
+            }
+            .checked {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: #639a63;
+                color: $color-white;
+                text-align: center;
+                padding-top: 6px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
+    
+    .form-body{
+        margin-top: 20px;
+        border: 2px solid $color-light;
+        background: $color-white;
+
+        .form-body-header{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 1px solid lighten($color-dark, 40%);
+            padding: 20px 50px 8px;
+
+            img{
+                width: 50px;
+                border-radius: 50%;
+            }
+            .header-detail{
+                line-height: 20px;
+                h4{
+                    color: $color-dark;
+                }
+                p{
+                    color: $color-dark;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .contact-detail{
+        padding: 40px 50px;
+        h5{
+            color: darken($color-dark, 30%);
+        }
+
+        .details{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px 1rem;
+
+            .detail-content {
+                font-size: 13px;
+                display: flex;
+                align-items: center;    
+                h4{
+                    font-size: 12px;
+                    width: 40%;
+                    color: $color-dark;
+                }
+                P{
+                    color: darken($color-dark, 20%);
+                }
+                .edit{
+                    border: 1px solid lighten($color-dark, 40%);
+                    border-radius: 4px;
+                    background-color: $color-light;
+                    padding: 1px 8px;
+                    margin-left: 10px;
+                    color: $color-secondary;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .buttons{
+            margin-top: 70px;
+            text-align: right;
+            button{
+                margin: 0 10px;
+                font-size: 10px;
+                width: 150px;
+                padding: 10px;
+                border-radius: 5px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .generate-no{
+                border: 1px solid $color-secondary;
+                color: $color-secondary;
+                background: inherit;
+            }
+            .next{
+                border: 1px solid $color-secondary;
+                background: $color-secondary;
+                color: $color-white;
+            }
+        }
+    }
+}
+
+
