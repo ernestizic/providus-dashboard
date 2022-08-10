@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 
-import Logo from '../providus.svg'
+import Logo from '../assets/providus.svg'
 import Dropdown from './Dropdown';
 
 const Sidebar = () => {

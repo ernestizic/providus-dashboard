@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar from '../avatar.jpg'
+import Avatar from '../assets/avatar.jpg'
 
 const Header = () => {
   return (

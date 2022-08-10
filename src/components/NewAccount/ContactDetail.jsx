@@ -1,5 +1,4 @@
 import React from 'react'
-import Caret from '../../caret-icon.svg'
 
 const ContactDetail = ({currentStep, setCurrentStep}) => {
   return (

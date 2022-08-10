@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-import Caret from '../caret-icon.svg'
+import Caret from '../assets/caret-icon.svg'
 
 const Dropdown = (props) => {
     const [showDropdownContent, setShowDropdownContent] = useState(false)

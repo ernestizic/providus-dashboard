@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import Avatar from '../avatar.jpg'
+import Avatar from '../assets/avatar.jpg'
 import FormSteps from '../components/NewAccount/FormSteps'
 
 const MultistepForm = (props) => {
