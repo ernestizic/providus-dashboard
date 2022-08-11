@@ -39,7 +39,6 @@
             display: flex;
             align-items: center;
             gap: 5px;
-            // border: 1px solid red;
             .active{
                 color: $color-secondary;
             }
@@ -163,6 +162,36 @@
             }
         }
     }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .new-account-screen-container{
+        margin: 0;
+        padding: 10px;
+        .screen-header{
+            h2{
+                font-size: 16px;
+            }
+        }
+        .form-header{
+            padding: 10px;
+        }
+
+        .contact-detail{
+            padding: 40px 20px;
+    
+            .details{
+                grid-template-columns: repeat(1, 1fr);
+            }
+    
+            .buttons{
+                display: flex;
+                text-align:left;
+            }
+        }
+    }
+    
 }
 
 

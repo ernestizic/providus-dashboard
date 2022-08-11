@@ -18,28 +18,28 @@ const ContactDetail = ({currentStep, setCurrentStep}) => {
           <h4>EMAIL ADDRESS</h4>
           <p>Ogunremi</p>
           <div className='edit'>
-            <i class="fa-solid fa-pen-to-square"></i> Edit
+            <i className="fa-solid fa-pen-to-square"></i> Edit
           </div>
         </div>
         <div className='detail-content'>
           <h4>MAILING ADDRESS</h4>
           <p>Ogunremi</p>
           <div className='edit'>
-            <i class="fa-solid fa-pen-to-square"></i> Edit
+            <i className="fa-solid fa-pen-to-square"></i> Edit
           </div>
         </div>
         <div className='detail-content'>
           <h4>PHONE 1</h4>
           <p>09012345678</p>
           <div className='edit'>
-            <i class="fa-solid fa-pen-to-square"></i> Edit
+            <i className="fa-solid fa-pen-to-square"></i> Edit
           </div>
         </div>
         <div className='detail-content'>
           <h4>PHONE 2</h4>
           <p>08012345678</p>
           <div className='edit'>
-            <i class="fa-solid fa-pen-to-square"></i> Edit
+            <i className="fa-solid fa-pen-to-square"></i> Edit
           </div>
         </div>
         <div className='detail-content'>

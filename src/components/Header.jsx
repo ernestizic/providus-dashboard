@@ -1,10 +1,10 @@
 import React from 'react'
 import Avatar from '../assets/avatar.jpg'
 
-const Header = () => {
+const Header = ({ showSidebar, setShowSidebar }) => {
   return (
     <div className='dashboard-header'>
-        <div className='bars-container'>
+        <div className='bars-container' onClick={()=> setShowSidebar(!showSidebar)}>
             <i className="fa-solid fa-bars"></i>
         </div>
 

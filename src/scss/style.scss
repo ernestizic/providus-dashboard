@@ -18,7 +18,18 @@ body{
     background: lighten($color-light, 3%);
 }
 
-.main-container {
-    margin-left: 255px;
+.dashboard-layout{
+	overflow: hidden;
 }
 
+.main-container {
+    margin-left: 255px;
+	transition: 0.1s ease;
+}
+
+
+@media only screen and (max-width: 820px) {
+	.main-container {
+		margin: 0;
+	}
+}
